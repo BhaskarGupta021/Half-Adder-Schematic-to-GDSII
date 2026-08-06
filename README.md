@@ -342,7 +342,7 @@ GitHub:
 https://github.com/Bhaskargupta021
 
 LinkedIn:
-https://linkedin.com/in/BhaskarGupta
+https://linkedin.com/in/bhaskar-gupta-03735728b
 
 ---
 
