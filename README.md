@@ -125,11 +125,10 @@ GDSII Generation
 
 # Technology
 
-Technology Node : 180 nm CMOS
+Technology Node : 90 nm CMOS
 
-PDK : GPDK180
+PDK : GPDK90
 
-*(Update this section according to your technology if different.)*
 
 ---
 
