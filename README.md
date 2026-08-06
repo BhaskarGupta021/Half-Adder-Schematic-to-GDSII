@@ -245,38 +245,77 @@ Special attention was given to
 
 # Design Rule Check (DRC)
 
-The layout successfully passed all Design Rule Checks.
+The completed layout was verified using Cadence Assura DRC to ensure that the layout satisfies all fabrication design rules defined by the GPDK90 technology.
 
-Result
+The verification confirms that all minimum spacing, width, enclosure, overlap, and connectivity rules are satisfied.
 
-✔ No DRC Errors
+### DRC Verification
 
-### DRC Report
+✔ No Design Rule Violations
 
-*To be added after DRC verification.*
+✔ Fabrication Rules Satisfied
+
+✔ Layout Ready for LVS Verification
+
+### DRC Result
+
+<p align="center">
+<img src="Images/05_drc.png" width="1000">
+</p>
+
+**Status:** ✅ DRC Clean (0 Errors)
 ---
 
 # Layout Versus Schematic (LVS)
 
-The layout was compared with the original schematic.
+After passing DRC verification, Layout Versus Schematic (LVS) verification was performed to compare the physical layout with the original transistor-level schematic.
 
-Result
+The LVS report confirms that both the schematic and layout are electrically identical, indicating that no connectivity or device mismatch exists.
 
-✔ Layout Matches Schematic
+### LVS Verification
 
-### LVS Report
+✔ Device Matching Successful
 
-*To be added after LVS verification.*
+✔ Netlist Matching Successful
 
+✔ Connectivity Verified
+
+✔ Layout Matches Original Schematic
+
+### LVS Result
+
+<p align="center">
+<img src="Images/06_lvs.png" width="1000">
+</p>
+
+**Status:** ✅ LVS Matched Successfully
 ---
 
 # GDSII Generation
 
-After successful DRC and LVS verification, the final fabrication-ready GDSII file was generated.
+Following successful DRC and LVS verification, the final GDSII stream file was generated.
 
-### GDSII
+The generated GDSII file represents the fabrication-ready layout database that can be used for semiconductor manufacturing.
 
-*To be added after GDSII generation.*
+This marks the successful completion of the custom IC physical design flow for the CMOS Half Adder.
+
+### GDSII Generation
+
+✔ DRC Passed
+
+✔ LVS Matched
+
+✔ Stream-Out Completed
+
+✔ Fabrication-Ready Layout Generated
+
+### GDSII Layout
+
+<p align="center">
+<img src="Images/07_gdsii.png" width="1000">
+</p>
+
+**Status:** ✅ GDSII Generated Successfully
 ---
 
 # Results
