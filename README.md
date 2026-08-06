@@ -5,7 +5,6 @@ Design and implementation of CMOS Half Adder from schematic to GDSII using Caden
 ![GitHub](https://img.shields.io/badge/Tool-Cadence%20Virtuoso-blue)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 ![Design](https://img.shields.io/badge/Design-CMOS%20Half%20Adder-orange)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
