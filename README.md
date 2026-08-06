@@ -136,19 +136,21 @@ PDK : GPDK90
 
 ```
 Half-Adder-Schematic-to-GDSII
-
+│
+├── README.md
+│
 ├── Images
+│   ├── 01_schematic.png
+│   ├── 02_symbol_testbench.png
+│   ├── 03_waveform.png
+│   ├── 04_layout.png
+│   ├── 05_drc.png          
+│   ├── 06_lvs.png          
+│   └── 07_gdsii.png       
 │
-├── 01_schematic.png
-├── 02_symbol_testbench.png
-├── 03_waveform.png
-├── 04_layout.png
-├── 05_drc.png
-├── 06_lvs.png
-└── 07_gdsii.png
 │
+└── GDSII
 
-└── README.md
 ```
 
 ---
