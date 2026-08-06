@@ -137,44 +137,15 @@ PDK : GPDK90
 ```
 Half-Adder-Schematic-to-GDSII
 
-│
-
 ├── Images
-
-│ ├── schematic.png
-
-│ ├── symbol.png
-
-│ ├── testbench.png
-
-│ ├── waveform.png
-
-│ ├── layout.png
-
-│ ├── drc.png
-
-│ ├── lvs.png
-
-│ └── gds.png
-
 │
-
-├── Cadence_Files
-
-│
-
-├── Reports
-
-│ ├── DRC_Report.pdf
-
-│ └── LVS_Report.pdf
-
-│
-
-├── GDSII
-
-│ └── HalfAdder.gds
-
+├── 01_schematic.png
+├── 02_symbol_testbench.png
+├── 03_waveform.png
+├── 04_layout.png
+├── 05_drc.png
+├── 06_lvs.png
+└── 07_gdsii.png
 │
 
 └── README.md
@@ -197,7 +168,9 @@ The schematic was verified before moving to the layout stage.
 
 ### Schematic
 
-![Schematic](Images/schematic.png)
+<p align="center">
+<img src="Images/01_schematic.png" width="900">
+</p>
 
 ---
 
@@ -207,10 +180,11 @@ A reusable symbol was generated from the transistor-level schematic.
 
 The symbol was later used in the testbench for functional verification.
 
-### Symbol
+### Symbol and Testbench
 
-![Symbol](Images/symbol.png)
-
+<p align="center">
+<img src="Images/02_symbol_testbench.png" width="900">
+</p>
 ---
 
 # Testbench
@@ -223,10 +197,6 @@ Input combinations tested
 - 01
 - 10
 - 11
-
-### Testbench
-
-![Testbench](Images/testbench.png)
 
 ---
 
@@ -244,7 +214,9 @@ The simulation confirms
 
 ### Waveform
 
-![Waveform](Images/waveform.png)
+<p align="center">
+<img src="Images/03_waveform.png" width="1000">
+</p>
 
 ---
 
@@ -263,7 +235,9 @@ Special attention was given to
 
 ### Layout
 
-![Layout](Images/layout.png)
+<p align="center">
+<img src="Images/04_layout.png" width="1000">
+</p>
 
 ---
 
@@ -277,8 +251,7 @@ Result
 
 ### DRC Report
 
-![DRC](Images/drc.png)
-
+*To be added after DRC verification.*
 ---
 
 # Layout Versus Schematic (LVS)
@@ -291,7 +264,7 @@ Result
 
 ### LVS Report
 
-![LVS](Images/lvs.png)
+*To be added after LVS verification.*
 
 ---
 
@@ -301,8 +274,7 @@ After successful DRC and LVS verification, the final fabrication-ready GDSII fil
 
 ### GDSII
 
-![GDSII](Images/gds.png)
-
+*To be added after GDSII generation.*
 ---
 
 # Results
@@ -365,10 +337,10 @@ Interested in
 - Digital IC Design
 
 GitHub:
-https://github.com/YOUR_USERNAME
+https://github.com/Bhaskargupta021
 
 LinkedIn:
-https://linkedin.com/in/YOUR_PROFILE
+https://linkedin.com/in/Bhaskargupta
 
 ---
 
